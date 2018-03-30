@@ -59,7 +59,7 @@ AI로 문제를 해결하는 데 관심 있는 분이라면 누구나 참가 신
 <strong>개인 또는 팀(최대 3명)</strong>으로 참가 가능합니다. [네이버 폼](http://naver.me/GyfLHzwg)으로 참가 신청하세요!
 
 * **신청기간**: 2018년 3월 12일(월)~3월 25일(일)
-* **참가 신청 폼**: http://naver.me/GyfLHzwg
+* **참가 신청 폼**: 참가 신청 마감
 * 신청자가 많을 경우 심사 후 개별 안내
 
 ## 일정
@@ -76,8 +76,7 @@ AI로 문제를 해결하는 데 관심 있는 분이라면 누구나 참가 신
     </td>
     <td style="text-align:center">2주</td>
     <td>
-      온라인<br>
-      <a href="http://naver.me/GyfLHzwg">http://naver.me/GyfLHzwg</a>
+      참가 신청 마감
     </td>
   </tr>
   <tr>
@@ -135,7 +134,8 @@ AI로 문제를 해결하는 데 관심 있는 분이라면 누구나 참가 신
 * NSML 리더보드 순위로 최종 순위를 결정합니다.
 
 > ※ 1 NSML 크레딧으로 NSML GPU를 1분 사용할 수 있습니다.<br>
-> &nbsp;&nbsp;&nbsp;10 NSML 크레딧 = GPU 1개 * 10분 = GPU 2개 * 5분 사용<br><br>
+> &nbsp;&nbsp;&nbsp;10 NSML 크레딧 = GPU 1개 * 10분 = GPU 2개 * 5분 사용
+
 > ※ 예선, 결선 진출자는 개별 안내 드립니다.
 
 
