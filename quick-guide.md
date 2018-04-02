@@ -30,6 +30,8 @@ ykkim@AL01205606~/demo $ curl -L -o cli.tar.gz https://github.com/n-CLAIR/File-d
                                  Dload  Upload   Total   Spent    Left  Speed
 100   175  100   175    0     0     87      0  0:00:02  0:00:02 --:--:--    83
 100 9439k  100 9439k    0     0  2359k      0  0:00:04  0:00:04 --:--:-- 5630k
+
+# tar.gz 압축 풀기.
 ykkim@AL01205606~/demo $ tar xvpf cli.tar.gz 
 x nsml_client.darwin.amd64.hack/
 x nsml_client.darwin.amd64.hack/nsml
