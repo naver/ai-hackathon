@@ -1,7 +1,7 @@
 ![banner](./res/NSMLHack_web_1000x260_G.jpg)
 
 # 공지사항
-### 참가 신청 마감
+### 미션 공개
 [미션](#%EB%AF%B8%EC%85%98)을 공개합니다.<br>
 [NSML](https://hack.nsml.navercorp.com/download)을 다시 다운로드하고 설치해 주세요!
 
