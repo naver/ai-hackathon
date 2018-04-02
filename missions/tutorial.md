@@ -10,6 +10,8 @@ NSML에 대한 더욱 자세한 설명은 다음 자료에서 확인할 수 있�
 
 ## 시작하기
 
+1. Quick-Guide : https://github.com/naver/ai-hackathon-2018/blob/master/quick-guide.md
+
 ### 설치
 
 1. [Download NSML](https://hack.nsml.navercorp.com/download)에서 플랫폼에 맞는 클라이언트를 다운로드합니다.
