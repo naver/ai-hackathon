@@ -2,8 +2,16 @@
 
 # 공지사항
 ### 참가 신청 마감
-예상보다 많은 팀이 참가 신청 해주셨습니다. 감사합니다.<br>
-예선 진출팀은 3월 30일(금)까지 개별 메일로 안내할 예정입니다.
+[미션](#%EB%AF%B8%EC%85%98)을 공개합니다.<br>
+[NSML](https://hack.nsml.navercorp.com/download)을 다시 다운로드하고 설치해 주세요!
+
+예선 라운드 일정이 변경됐습니다.
+* 예선 1라운드
+  - 기존 2018년 4월 2일(월) ~ 2018년 4월 8일(일)
+  - 변경 2018년 4월 2일(월) ~ 2018년 4월 9일(월) 오전 11시
+* 예선 2라운드
+  - 기존 2018년 4월 9일(월) ~ 2018년 4월 15일(일)
+  - 기존 2018년 4월 10일(화) 오전 11시 ~ 2018년 4월 16일(월) 오전 11시
 
 # 네이버 AI 해커톤 2018
 
@@ -82,7 +90,7 @@ AI로 문제를 해결하는 데 관심 있는 분이라면 누구나 참가 신
   <tr>
     <td>
       <strong>예선</strong><br>
-      2018년 4월 2일(월)~4월 15일(일)
+      2018년 4월 2일(월)~4월 16일(월)
     </td>
     <td style="text-align:center">2주</td>
     <td>
@@ -107,10 +115,11 @@ AI로 문제를 해결하는 데 관심 있는 분이라면 누구나 참가 신
 &nbsp;&nbsp;&nbsp;네이버 본사 - 커넥트원 간 이동 차량 및 결선 기간 중 숙식, 간식 등을 제공합니다.
 
 ## 미션
-* 네이버 지식iN 질문 유사도 예측
-* 네이버 영화 평점 예측
+* [네이버 지식iN 질문 유사도 예측](missions/kin.md)
+* [네이버 영화 평점 예측](missions/movie-review.md)
 
-> ※ 미션 상세 설명과 NSML 튜토리얼 등은 예선 시작일인 4월 2일(월) 오전에 공개합니다.
+> ※ 모든 미션은 NSML 플랫폼을 사용해 해결합니다.<br>
+> &nbsp;&nbsp;&nbsp;NSML을 통해 미션을 해결하는 방법은 이 [튜토리얼](missions/tutorial.md)을 참고해 주세요.
 
 ## 진행 방식 및 심사 기준
 
@@ -121,11 +130,11 @@ AI로 문제를 해결하는 데 관심 있는 분이라면 누구나 참가 신
 * 사용하지 않는 크레딧은 누적됩니다.
 
 #### ***예선 1라운드***
-* 2018년 4월 2일(월) ~ 2018년 4월 8일(일)
+* 2018년 4월 2일(월) ~ 2018년 4월 9일(월) 오전 11시
 * NSML 리더보드 순위로 2라운드 진출자 선정. 순위가 낮으면 자동 컷오프.
 
 #### ***예선 2라운드***
-* 2018년 4월 9일(월) ~ 2018년 4월 15일(일)
+* 2018년 4월 10일(화) 오전 11시 ~ 2018년 4월 16일(월) 오전 11시
 * NSML 리더보드 순위로 결선 진출자 선정
 
 ### 결선
@@ -147,8 +156,29 @@ AI로 문제를 해결하는 데 관심 있는 분이라면 누구나 참가 신
 * 우수 참가자 중 네이버 인턴 지원 시 서류 전형 면제
 
 ## FAQ
-자주 문의하는 내용을 확인해 보세요! [FAQ.md](FAQ.md)
+자무 문의하는 내용을 확인해 보세요! [FAQ.md](FAQ.md)
 
 ## 문의
 해커톤 관련 문의는 아래 이메일을 통해 할 수 있습니다.<br>
 dl_ai_hackathon_2018@navercorp.com
+
+## License
+```
+Copyright 2018 NAVER Corp.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+associated documentation files (the "Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
+OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
