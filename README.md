@@ -1,6 +1,9 @@
 ![banner](./res/NSMLHack_web_1000x260_G.jpg)
 
 # 공지사항
+### NSML 크래딧 제한 안내
+ * 누적 크레딧을 2000크레딧으로 제한합니다.
+
 ### 미션 공개
 [미션](#%EB%AF%B8%EC%85%98)을 공개합니다.<br>
 [NSML](https://hack.nsml.navercorp.com/download)을 다시 다운로드하고 설치해 주세요!
@@ -166,19 +169,19 @@ dl_ai_hackathon_2018@navercorp.com
 ```
 Copyright 2018 NAVER Corp.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
 associated documentation files (the "Software"), to deal in the Software without restriction, including
 without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to
 the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial 
+The above copyright notice and this permission notice shall be included in all copies or substantial
 portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
-CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
 OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
