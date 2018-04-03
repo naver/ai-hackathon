@@ -1,8 +1,6 @@
 
 
-
-
-Quick guide.. 터미널만 보고 따라하기.
+Quick guide.. 터미널만 보고 따라하기. (command line을 복사/붙여넣기로 submit까지 5분).
 
 ```
 
