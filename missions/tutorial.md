@@ -287,7 +287,7 @@ NSML 웹에서는 여러분이 학습시킨 모델에 대한 수치를 TensorBoa
 
         ...
 
-        nsml.report(summary=True, scope=locals(), epoch=epoch total_epoch=config.epochs, val_acc=val_acc,
+        nsml.report(summary=True, scope=locals(), epoch=epoch, total_epoch=config.epochs, val_acc=val_acc,
                         train_acc=train_acc, train__loss=train_loss, val__loss=val_loss, min_val_loss=min_val_loss,
                         step=epoch)
 
