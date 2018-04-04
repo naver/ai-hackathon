@@ -209,7 +209,7 @@ $ nsml fork SESSION_NAME -a "--lr 0.02"
 
 ```python
 ...
-if __name__ == 'main__':
+if __name__ == '__main__':
     #1
     args.add_argument('--pause', type=int, default=0)
     ...
@@ -225,7 +225,7 @@ if __name__ == 'main__':
 
 ```python
 ...
-if __name__ == 'main__':
+if __name__ == '__main__':
     args.add_argument('--mode', type=str, default='train')
 ...
 ```
@@ -236,7 +236,7 @@ if __name__ == 'main__':
 
 ```python
 ...
-if __name__ == 'main__':
+if __name__ == '__main__':
 
     args.add_argument('--iteration', type=str, default='0')
     ...
@@ -303,7 +303,7 @@ NSML 웹에서는 여러분이 학습시킨 모델에 대한 수치를 TensorBoa
 NSML 웹에서는 여러분이 학습시키고 있는 모델을 디버깅할 수 있습니다. 예시로 지식iN 분류 모델의 코드 일부를 보겠습니다.
 
 ```python
-if __name__ == 'main__':
+if __name__ == '__main__':
 
     ...
     config = args.parse_args()
