@@ -37,3 +37,21 @@ pip uninstall git+https://github.com/n-CLAIR/nsml-local.git;pip install git+http
 답변) leaderboard에 제출된 값중에서 가장 좋은 결과 1건만 보여주고 있습니다. 추가로 자신이 제출한 모든 이력을 확인하는 방법이 있습니다. 아래 그림과 같이 leaderboard에서 public 탭을 private으로 변경하시면 됩니다.
 
 ![leaderboard-private](./res/leaderboard.png)
+
+#### 5. credit은 어떻게 지급되나나요?
+답변) credit은 매일 10:30(am) ~ 11:00(am) 사이에 지급됩니다. CLI의 nsml credit 명령과 web화면에서 확인 가능합니다. 
+
+#### 6. 팀원이 두명인데, 한명만 로그인이 되어요. 정상인가요?
+답변) 네에, 현재 팀원1로 등록된 분만 nsml에 접근하시어 사용가능합니다. credit 또한 1명의 계정에만 지급됩니다. 
+
+#### 7. nsml에서 외부 python package를 설치할 수 있나요?
+답변) 네에, setup.py를 통하여 추가 설치를 할 수 있습니다. 
+
+#### 8. nsml에서 pythone이외의 lib를 사용할 방법이 있나요?
+답변) 네에, 몇가지 조건을 만족하면 외부 lib를 사용할 수 있습니다. 일단, docker image를 생성하여 setup.py의 맨 위줄 #nsml: ... 형식으로 docker image의 이름을 명시하여야 합니다.
+관련 내용은 아래 링크에서 참고하실 수 있습니다.  https://github.com/naver/ai-hackathon-2018/blob/master/missions/tutorial.md#%EB%AA%A8%EB%8D%B8-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0 
+
+#### 9. setup.py에는 항상 #nsml로 시작해야하나요?
+답변) setup.py에 첫 줄에 있는 #nsml: ... 은 nsml에서 docker Hub에 있는 외부 Docker image를 사용할 때만 적으면 됩니다. 실제로, 샘플로 제공된 kin과 movie review 예제 중에서 한쪽만 #nsml: ... 형식을 취하고 있습니다. 이곳에 아무것도 적지 않으면, nsml은 nsml사용을 위해서 생성해둔 기본 docker image를 사용하게 됩니다. 
+
+
