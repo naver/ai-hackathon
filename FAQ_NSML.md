@@ -67,7 +67,8 @@ pytorch 및 NLP 관련 문의는 dl_ai_hackathon_2018_mentors@navercorp.com 로 
 알려지 사례는 다음과 같습니다. 
 - nsml submit시 학습데이터 셋을 참조하려고하는 경우: train과 submit는 서로 다른 환경에서 동작하고 있습니다. submit에서는 train에서 사용하는 file을 사용할 이유가 없기 때문에 해당 파일을 올려두지 않고 있습니다. 그런데, 사용자 작성 코드에서 submit시 call하게 되는 infer함수 내부에서 train용 학습셋을 참조한 경우가 있었으며 위와 같은 오류가 보고된 사례가 있었습니다. 대응 가이드로,  if config.mode == 'train': 과 같이 분기조건만 학습셋을 참조하도록 의견드렸습니다. 
 
-
+#### 12. nsml run에서 구동할 수 있는 코드는 제약이 있나요?
+답변) nsml run시 별도 설정이 없을 경우 main.py를 기본적으로 전송하게 됩니다. 현재는 python코드만 전송 및 수행이 가능하도록 제한을 두고 있습니다. 또한 파일명 또한 .으로 시작하면 upload할 수 없도록 막혀있습니다. 
 
 
 
