@@ -32,3 +32,8 @@ pip uninstall git+https://github.com/n-CLAIR/nsml-local.git;pip install git+http
 
 #### 3. 영화 평점 리뷰에 대한 Tensorflow 예제는 없나요?
 답변) 네에, 영화 평점 리뷰는 PyTorch로 되어있습니다. 하지만, Kin예제는 Tensorflow로 되어 있습니다. 두 예제가 비슷하므로 어렵지 않게 변경이 가능할 것으로 예상됩니다. 
+
+#### 4. submit을 했는데, leaderboard에 변경이 없어요. 과거 submit history를 확인하는 방법이 있나요?
+답변) leaderboard에 제출된 값중에서 가장 좋은 결과 1건만 보여주고 있습니다. 추가로 자신이 제출한 모든 이력을 확인하는 방법이 있습니다. 아래 그림과 같이 leaderboard에서 public 탭을 private으로 변경하시면 됩니다.
+
+![leaderboard-private](./res/leaderboard.png)
