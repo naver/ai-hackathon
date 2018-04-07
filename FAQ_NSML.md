@@ -54,4 +54,6 @@ pip uninstall git+https://github.com/n-CLAIR/nsml-local.git;pip install git+http
 #### 9. setup.py에는 항상 #nsml로 시작해야하나요?
 답변) setup.py에 첫 줄에 있는 #nsml: ... 은 nsml에서 docker Hub에 있는 외부 Docker image를 사용할 때만 적으면 됩니다. 실제로, 샘플로 제공된 kin과 movie review 예제 중에서 한쪽만 #nsml: ... 형식을 취하고 있습니다. 이곳에 아무것도 적지 않으면, nsml은 nsml사용을 위해서 생성해둔 기본 docker image를 사용하게 됩니다. 
 
-
+#### 10. 학습 프로그램 작성 및 nsml 관련하여 문의는 어디로 하면 되나요? 또한 문의시 어떤 것을 적으면 될까요?
+답변) 이번 해커톤 지원을 위해서 2개의 email 주소가 있습니다. 각각 용도가 따로 있으니 구분하여 문의하시는 것이 보다 빠른 회신을 받으실 수 있습니다. 
+pytorch 및 NLP 관련 문의는 dl_ai_hackathon_2018_mentors@navercorp.com 로 진행하시면 되며, nsml의 실행에 관련된 문의 및 오류는 dl_ai_hackathon_2018@navercorp.com 로 문의하시면 됩니다. 문의시 자신의 session이름이 포한된 terminal상의 오류 화면을 포함하시면 됩니다.
