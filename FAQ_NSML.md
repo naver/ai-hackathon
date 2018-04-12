@@ -2,11 +2,11 @@
 
 #### 0. phase2 update 사항
 1. nsml submit -t option 추가 :  테스트 모드 추가 (형식: nsml submit -t session model)
-  - submit시 오류가 발생할 때, 메시지를 잘 받아볼 수 없는 문제를 보완하기 위해서 -t 옵션을 추가
-  - nsml submit -t로 명령을 수행하면 테스트 셋 데이터의 첫 10줄에 대한 prediction결과를 출력합니다.
-  - 중간에 문제가 생기면 세션이 종료되며, 이 때 session id 가 출력되기 때문에 nsml logs를 이용해서 디버깅이 가능합니다.
-  - 기존 코드에 문제가 있는 경우 (각각의 경우는 FAQ 다른 항목 참고), 과거에는 세션 응답없음까지 기다렸다면, 이제는 그 전에 먼저 종료됨  
-  -  out of memory에러, 혹은 timeout이 발생할 경우 nsml submit -b를 이용해 배치 사이즈 조정 가능
+- submit시 오류가 발생할 때, 메시지를 잘 받아볼 수 없는 문제를 보완하기 위해서 -t 옵션을 추가.  
+- nsml submit -t로 명령을 수행하면 테스트 셋 데이터의 첫 10줄에 대한 prediction결과를 출력합니다.
+- 중간에 문제가 생기면 세션이 종료되며, 이 때 session id 가 출력되기 때문에 nsml logs를 이용해서 디버깅이 가능합니다.
+- 기존 코드에 문제가 있는 경우 (각각의 경우는 FAQ 다른 항목 참고), 과거에는 세션 응답없음까지 기다렸다면, 이제는 그 전에 먼저 종료됨  
+-  out of memory에러, 혹은 timeout이 발생할 경우 nsml submit -b를 이용해 배치 사이즈 조정 가능
 
 2. nsml fork
   - fork를 해서 생성한 세션에 대해서 nsml submit이 정상적으로 동작하지 않던 버그 수정
