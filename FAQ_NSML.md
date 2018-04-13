@@ -39,7 +39,9 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'nsml'
 ```
 답변) nsml local의 재설치를 위해서 아래 명령어를 실행하시면 됩니다. uninstall 및 install을 수행합니다. 
+```
 pip uninstall git+https://github.com/n-CLAIR/nsml-local.git;pip install git+https://github.com/n-CLAIR/nsml-local.git
+```
 
 #### 3. 영화 평점 리뷰에 대한 Tensorflow 예제는 없나요?
 답변) 네에, 영화 평점 리뷰는 PyTorch로 되어있습니다. 하지만, Kin예제는 Tensorflow로 되어 있습니다. 두 예제가 비슷하므로 어렵지 않게 변경이 가능할 것으로 예상됩니다. 
