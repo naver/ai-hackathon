@@ -77,7 +77,7 @@ pytorch 및 NLP 관련 문의는 dl_ai_hackathon_2018_mentors@navercorp.com 로 
 2018/04/07 08:58:12 nsml: Internal server error
 ```
 다양한 이유로 발생할 수 있습니다. 먼저 아래에 서술된 사례를 먼저 검토해보시고, 문제가 지속된다면 정확환 원인 분석을 위해서 dl_ai_hackathon_2018@navercorp.com 로 문의 메일을 주시기 바랍니다. 보내실 때는 session이름을 확인 할 수 있도록 터미널 화면을 복사해서 보내주시면 됩니다.
-알려 사례는 다음과 같습니다. 
+알려진 사례는 다음과 같습니다. 
 - nsml submit시 학습데이터 셋을 참조하려고하는 경우: train과 submit는 서로 다른 환경에서 동작하고 있습니다. submit에서는 train에서 사용하는 file을 사용할 이유가 없기 때문에 해당 파일을 올려두지 않고 있습니다. 그런데, 사용자 작성 코드에서 submit시 call하게 되는 infer함수 내부에서 train용 학습셋을 참조한 경우가 있었으며 위와 같은 오류가 보고된 사례가 있었습니다. 대응 가이드로,  if config.mode == 'train': 과 같이 분기조건만 학습셋을 참조하도록 의견드렸습니다. 
 
 #### 12. nsml run에서 구동할 수 있는 코드는 제약이 있나요?
