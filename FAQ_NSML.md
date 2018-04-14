@@ -86,4 +86,9 @@ pytorch 및 NLP 관련 문의는 dl_ai_hackathon_2018_mentors@navercorp.com 로 
 #### 13. nsml run에서 'No machine available'가 나와요.
 답변) nsml에서 준비한 모든 GPU 자원을 사용중에 발생하는 메시지로, 주로 참가자가 몰리는 시간에 발생하는 경향이 있습니다. 다른 참가자의 session이 종료되면 다시 사용가능하게 되므로 보통은 10-20분 정도 후에 재실행하면 됩니다. 
 
+#### 14. session에서 최대로 사용할 수 있는 GPU 수는 얼마입니까?
+답변) 이번 해커톤에서는 session당 최대 2개로 제한하고 있습니다. nsml run -g 2 ... 옵션으로 두 개의 GPU를 사용할 수 있습니다. 
+
+#### 15. 동시에 수행할 수 있는 session은 제한이 있나요?
+답변) id마다 session을 제한고 있지는 않습니다. credit이 허용한다면, session 수의 제한 없이 동시 수행이 가능합니다. 
 
