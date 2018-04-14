@@ -90,5 +90,5 @@ pytorch 및 NLP 관련 문의는 dl_ai_hackathon_2018_mentors@navercorp.com 로 
 답변) 이번 해커톤에서는 session당 최대 2개로 제한하고 있습니다. nsml run -g 2 ... 옵션으로 두 개의 GPU를 사용할 수 있습니다. 
 
 #### 15. 동시에 수행할 수 있는 session은 제한이 있나요?
-답변) id마다 session을 제한고 있지는 않습니다. credit이 허용한다면, session 수의 제한 없이 동시 수행이 가능합니다. 
+답변) id마다 session을 제한을 두고있지 않습니다. credit이 허용한다면, session 수의 제한 없이 동시 수행이 가능합니다. 
 
