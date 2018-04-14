@@ -114,7 +114,7 @@ setup(
 ```
 #### 18. nsml에서 docker image 사용은 어떻게 하나요?
 답변) docker image를 사용하기 위해서는 docker image를 build하여 docker hub에 올려야합니다. 
-그리고, hub에 올려진 image의 이름을 setup.py 첫 줄에 적으면 문법에 맞추어 적으면 됩니다. 아래는 movie example에 사용된 setup의 첫 줄입니다. 
+그리고, hub에 올려진 image의 이름을 setup.py 첫 줄에 문법에 맞추어 적으면 됩니다. 아래는 movie example에 사용된 setup의 첫 줄입니다. 
 ```
 #nsml: floydhub/pytorch:0.3.0-gpu.cuda8cudnn6-py3.17
 ```
