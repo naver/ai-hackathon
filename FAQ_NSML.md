@@ -95,7 +95,7 @@ pytorch 및 NLP 관련 문의는 dl_ai_hackathon_2018_mentors@navercorp.com 로 
 #### 16. nsml에서 외부 모듈을 설치할 수 있나요?
 답변) nsml에서 아래 두 가지 방법으로 외부 모듈 사용이 가능합니다. 
 1. pip install : 간단한 python lib 설치
-2. docker image : 복잡한 lib 설치
+2. docker image : JVM 환경이 필요하거나, 추가 구동 환경이 필요한 lib 설치 (docker image 생성 -> docker hub에 image 올리고 -> setup.py 첫 줄에 #nsml:... 명시)
 
 #### 17. nsml에서 pip install은 어떻게 하나요?
 답변) setup.py의 install_requires에 모듈을 적으면 됩니다. 
@@ -112,4 +112,11 @@ setup(
    ]
 )
 ```
+#### 18. nsml에서 docker image 사용은 어떻게 하나요?
+답변) docker image를 사용하기 위해서는 docker image를 build하여 docker hub에 올려야합니다. 
+그리고, hub에 올려진 image의 이름을 setup.py 첫 줄에 적으면 문법에 맞추어 적으면 됩니다. 아래는 movie example에 사용된 setup의 첫 줄입니다. 
+```
+#nsml: floydhub/pytorch:0.3.0-gpu.cuda8cudnn6-py3.17
+```
+
 
