@@ -92,3 +92,24 @@ pytorch 및 NLP 관련 문의는 dl_ai_hackathon_2018_mentors@navercorp.com 로 
 #### 15. 동시에 수행할 수 있는 session은 제한이 있나요?
 답변) id마다 session을 제한을 두고있지 않습니다. credit이 허용한다면, session 수의 제한 없이 동시 수행이 가능합니다. 
 
+#### 16. nsml에서 외부 모듈을 설치할 수 있나요?
+답변) nsml에서 아래 두 가지 방법으로 외부 모듈 사용이 가능합니다. 
+1. pip install : 간단한 python lib 설치
+2. docker image : 복잡한 lib 설치
+
+#### 17. nsml에서 pip install은 어떻게 하나요?
+답변) setup.py의 install_requires에 모듈을 적으면 됩니다. 
+```
+from distutils.core import setup
+setup(
+   name='nsml example 10 ladder_network',
+   version='1.0',
+   description='ns-ml',
+   install_requires =[
+   	'matplotlib',               (← add custom lib )
+       'tqdm',
+       'pillow'
+   ]
+)
+```
+
