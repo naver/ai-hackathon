@@ -1,5 +1,12 @@
 # FAQ For NSML
 
+#### 0. final update 사항(dataset)
+##### 1.kin_data:
+ - 학습용/테스트용 지식인 질문의 주제가 다릅니다. 예를 들어, 학습용 데이터가 컴퓨터에 관한 것이었다면, 테스트용 데이터는 핸드폰에 관한 질문인 방식입니다. 따라서, phase1/2때보다 generalization에 좀 더 집중해야 좋은 점수를 얻을 수 있습니다.
+
+##### 2. movie_review:
+ - 1.과 마찬가지로 학습용/테스트용 영화 항목이 다릅니다.
+
 #### 0. phase2 update 사항
 ##### 1. nsml submit -t option 추가 :  테스트 모드 추가 (형식: nsml submit -t session model)
 - submit시 오류가 발생할 때, 메시지를 잘 받아볼 수 없는 문제를 보완하기 위해서 -t 옵션을 추가.  
