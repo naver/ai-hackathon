@@ -64,6 +64,29 @@ AI 전문가들과 함께 문제 해결 방법을 고민하고 경험을 공유�
 * [네이버 지식iN 질문 유사도 예측 문제 최종결과](res/result_kin_final.png)
 * [네이버 영화 평점 예측 최종결과](res/result_movie_final.png)
 
+## 모델 공유
+
+<table>
+  <tr>
+    <th style="text-align:left;width:20%">팀명</th>
+    <th style="text-align:left;width:40%">미션</th>
+    <th style="text-align:left;width:40%">링크</th>
+  </tr>
+  <tr>
+    <td>
+      tantara
+    </td>
+    <td>
+      지식iN 질문 유사도 예측
+    </td>
+    <td>
+      <a href="https://github.com/tantara/naver-ai-hackathon-2018">바로가기</a>
+    </td>
+  </tr>
+</table>
+
+> ※ 모델을 공유하실 팀은 PR 부탁드립니다.
+
 ## 멘토
 여러분들과 함께 문제 해결 방법을 고민하고 조언 해주실 슈퍼 멘토를 소개합니다.
 
