@@ -118,7 +118,7 @@ AI 전문가들과 함께 문제 해결 방법을 고민하고 경험을 공유�
   </tr>
   <tr>
     <td>
-      슈퍼갤럭시
+      슈퍼갤럭시
     </td>
     <td>
       네이버 영화 평점 예측<br>
@@ -126,10 +126,15 @@ AI 전문가들과 함께 문제 해결 방법을 고민하고 경험을 공유�
     </td>
     <td>
       <a href="https://github.com/Timmy-Oh/NSML_Naver_AI_Hackathon_2018">바로가기</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
       SOCC
     </td>
     <td>
-      네이버 영화 평점 예측, 네이버 지식인 제목유사도 비교
+      네이버 영화 평점 예측<br>
+      네이버 지식iN 질문 유사도 예측
     </td>
     <td>
       <a href="https://github.com/socc-io/bknet">바로가기</a>
