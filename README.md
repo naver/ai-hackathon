@@ -140,6 +140,17 @@ AI 전문가들과 함께 문제 해결 방법을 고민하고 경험을 공유�
       <a href="https://github.com/socc-io/bknet">바로가기</a>
     </td>
   </tr>
+  <tr>
+    <td>
+      HCC
+    </td>Â
+    <td>
+      네이버 영화 평점 예측
+    </td>
+    <td>
+      <a href="https://github.com/jinhan/naver-ai-hackathon-2018">바로가기</a>
+    </td>
+  </tr>
 </table>
 
 > ※ 모델을 공유하실 팀은 PR 부탁드립니다.
