@@ -143,12 +143,24 @@ AI 전문가들과 함께 문제 해결 방법을 고민하고 경험을 공유�
   <tr>
     <td>
       HCC
-    </td>Â
+    </td>
     <td>
       네이버 영화 평점 예측
     </td>
     <td>
       <a href="https://github.com/jinhan/naver-ai-hackathon-2018">바로가기</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      kozistr
+    </td>
+    <td>
+      네이버 영화 평점 예측<br>
+      네이버 지식iN 질문 유사도 예측
+    </td>
+    <td>
+      <a href="https://github.com/kozistr/naver-ai-hackathon-2018">바로가기</a>
     </td>
   </tr>
 </table>
